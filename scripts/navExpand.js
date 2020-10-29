@@ -1,0 +1,23 @@
+function navExpand() {
+    document.getElementById("mainPage").classList.add("mainPage-pad");
+    document.getElementById("nav-button-expand").classList.add("hidden");
+    document.getElementById("nav-button-retract").classList.remove("hidden");
+    document.getElementById("nav-button1-expand").classList.add("hidden");
+    document.getElementById("nav-button1-retract").classList.remove("hidden");
+    document.getElementById("nav").classList.toggle("nav-retract");
+    document.getElementById("mainPage").classList.toggle("mainPage-retract");
+    document.getElementById("nav-background-ext").classList.toggle("hidden");
+    document.getElementById("photo").classList.add("photo");
+    document.getElementById("photo").classList.remove("photo-retract");
+    document.getElementById("btnTxt1").classList.remove("hidden");
+    document.getElementById("btnTxt2").classList.remove("hidden");
+    document.getElementById("btnTxt3").classList.remove("hidden");
+    document.getElementById("btnTxt4").classList.remove("hidden");
+    document.getElementById("btnTxt5").classList.remove("hidden");
+    document.getElementById("nav-btn-1").classList.remove("nav-i-icon-retract");
+    document.getElementById("nav-btn-2").classList.remove("nav-i-icon-retract");
+    document.getElementById("nav-btn-3").classList.remove("nav-i-icon-retract");
+    document.getElementById("nav-btn-4").classList.remove("nav-i-icon-retract");
+    document.getElementById("nav-btn-5").classList.remove("nav-i-icon-retract");
+    document.getElementById("footer").classList.remove("footer-retract")
+}

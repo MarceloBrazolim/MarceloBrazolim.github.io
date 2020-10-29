@@ -1,0 +1,227 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.m-0 {
+  margin: 0!important;
+}
+
+.p-0 {
+  padding: 0!important;
+}
+
+div {
+  display: block;
+}
+
+hr {
+  display: block;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  height: 1px;
+  width: 100%;
+  border: 0;
+  border-top: 1px solid rgba(18, 18, 18, .1);
+  overflow: visible;
+  box-sizing: content-box;
+}
+
+.li-p p {
+  margin: 0!important;
+}
+
+.title {
+  text-align: left;
+  display: inline-block;
+  margin: 120px 40px 300px 50px;
+  font-size: 1.5em;
+}
+
+.title h1, .title h3, .title h5 {
+  margin-bottom: 0;
+}
+
+.title h5 {
+  margin-top: 15px;
+}
+
+.title p {
+  margin: 0 0 0 40px;
+  font-size: 18px;
+}
+
+.grid-container {
+  display: grid!important;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  gap: 0px 0px;
+  grid-template-areas:
+    "shrug txt-404"
+    "shrug txt404";
+}
+
+.shrug { grid-area: shrug; margin: 50px 0 auto 0; height: auto; overflow: visible; }
+.txt-404 { grid-area: txt-404; }
+.txt404 { grid-area: txt404; }
+
+#sec-interest {
+  padding: 20px 48px!important;
+}
+
+#sec-interest .title p {
+  margin: 0!important;
+}
+
+.hforty {
+  font-size: 1.4rem!important;
+}
+
+#sec-skills ul {
+  margin: 5px 0 20px 0;
+}
+
+#sec-skills ul i {
+  display: inline-block;
+  font-size: 3rem;
+  margin: 3px 5px;
+  padding: 3px 5px;
+}
+
+#sec-skills ul i:hover {
+  color: #6f4a8e;
+}
+
+#sec-skills p {
+  font-size: 1.4rem;
+}
+
+#sec-experience h1 {
+  margin-left: 40px;
+}
+
+.cards h2 {
+  margin: 0;
+  padding: 10px;
+}
+
+.cards .item {
+  float: left;
+  overflow: hidden;
+  margin: 20px;
+  width: 28%;
+}
+
+#footer {
+  position: static;
+  right: 0;
+  left: 1fr;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+}
+
+.footer a {
+  display: inline;
+  text-align: left;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: auto;
+}
+
+.footer a i {
+  margin: 27px auto auto 20px;
+  text-align: right!important;
+  vertical-align: middle;
+  font-size: 1.1rem;
+}
+
+.footer a i .us-en {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding-left: 10px;
+  box-sizing: border-box;
+  height: 100%;
+  text-align: center;
+  padding: auto;
+  text-transform: uppercase;
+}
+
+p {
+  margin: 0;
+  font-size: 15px;
+}
+
+.fixed {
+  position: fixed!important;
+}
+
+.cards .item img {
+  width: 100%;
+  border-radius: 2.5%;
+}
+
+.interest-1 {
+  font-size: 1.3rem!important;
+}
+
+.interest {
+  font-size: 1.2rem!important;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+.hv-pointer:hover {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none!important;
+}
+
+.section {
+  padding-top: 5rem!important;
+  padding-bottom: 5rem!important;
+  max-width: 75rem;
+}
+
+.d-flex {
+  display: -ms-flexbox!important;
+  display: flex!important;
+}
+
+.d-block {
+  display: block!important;
+}
+
+.align-center {
+  align-items: center!important;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}

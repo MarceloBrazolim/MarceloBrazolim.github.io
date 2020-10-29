@@ -1,0 +1,128 @@
+@media (max-width: 992px) {
+  .mainPage {
+    padding-left: 0px;
+  }
+  .mainPage-retract {
+    margin-left: 0px!important;
+  }
+  .nav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 50px;
+    min-height: 50px;
+  }
+  #nav .nav-pres .nav-pres-txt {
+    display: flex;
+    position: relative;
+    top: 0.8em;
+    left: 1em;
+    box-sizing: content-box;
+  }
+  .nav .nav-pres img {
+    display: none;
+  }
+  .nav .nav-btns {
+    margin-left: 5vw;
+    text-align: left;
+  }
+  .nav .nav-btns .nav-i .icons {
+    display: none;
+  }
+  .nav .nav-btns .nav-i .btnTxt {
+    padding: 5px;
+  }
+  #nav .nav-main-button {
+    display: none;
+  }
+  .nav-button-span {
+    display: inline-block;
+  }
+  .footer-retract {
+    padding-right: 0!important;
+  }
+
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 0;
+  }
+  .nav-background-ext {
+    display: none;
+  }
+  .mainPage-pad {
+    padding-left: 200px;
+  }
+  .section {
+    padding-top: 3rem!important;
+    padding-bottom: 3rem!important;
+  }
+  .p-lg-5 {
+    padding: 3rem!important;
+  }
+  .nav {
+    text-align: left;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+  }
+  .nav .photo {
+    max-width: 12rem;
+    max-height: 12rem;
+  }
+  .nav .nav-press {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto auto 0;
+    padding: 0.5rem;
+  }
+  .nav-i .btnTxt {
+    padding: 10px 0px 10px 7px;
+    text-transform: uppercase;
+  }
+}
+
+@media (min-width: 768px) {
+  section.section {
+    min-height: 100vh;
+  }
+  section .section .item .date {
+    min-width: 18rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .cards .item {
+    width: 43%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .cards .item {
+    width: 28%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cards .item {
+    width: 87%;
+  }
+}

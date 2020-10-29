@@ -1,0 +1,1 @@
+function grey4() { document.getElementById("nav-btn-4").style = "color: #f1f1f1bc; cursor: initial"; }

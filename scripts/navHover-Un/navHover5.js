@@ -1,0 +1,1 @@
+function hvPurple5() { document.getElementById("nav-btn-5").style = "color: #6f4a8e; cursor: pointer"; }
